@@ -90,9 +90,6 @@ td {
     height: 100%;
     border-radius: 50%;
     background-color: red;
-   
-   
-    
 }
 .rond {
     position: relative;
@@ -246,6 +243,67 @@ td {
     }
     
 }
+.deux{
+    position: relative;
+    right: -200px;
+    animation-name: spin2;
+    animation-duration: 600ms;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 21, 255);
+    top: 80px;
+  
+}
+.un{
+   
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: spin1;
+    left: 196px;
+    animation-duration: 400ms;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+    top: 100px;
+   
+}
+@keyframes spin1 {
+
+    0%{
+        left: 196px;
+    }
+    50%{
+        left: 170px;
+
+    }
+    100%{
+        left: 210px;
+    }
+    
+}
+@keyframes spin2 {
+
+    0%{
+        right: -196px;
+    }
+    50%{
+        right: -170px;
+
+    }
+    100%{
+        right: -210px;
+    }
+    
+}
+
+
+
 
 
 
