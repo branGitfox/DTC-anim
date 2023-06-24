@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 1px black;
+   
+}
+th {
+    text-align: center;
+}
+
+.anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6 {
+
+    width: 400px;
+    height: 200px;
+}
+td {
+    border: solid 1px black;
+}
+
+.container {
+    width: 60%;
+    height: 5px;
+    border-radius: 20px;
+    border: solid ;
+}
