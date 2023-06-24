@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: bisque;
+    background-color:ivory;
 }
 
 table {
@@ -33,10 +33,11 @@ td {
     width: 60%;
     height: 10px;
     border-radius: 20px;
-    border: solid ;
+    border: solid rgba(205, 63, 63, 0.573);
     margin: auto;
     position: relative;
     top: 100px;
+    
 }
 
 .barre {
@@ -79,7 +80,7 @@ td {
     width: 60%;
     height: 10px;
     border-radius: 20px;
-    border: solid ;
+    border: solid rgba(53, 109, 228, 0.427) ;
     margin: auto;
     position: relative;
     top: 100px;
@@ -202,6 +203,50 @@ td {
         border-bottom: solid 2.5px rgb(245, 14, 14);
     }
 }
+
+.big{
+    width: 80px;
+    height: 80px;
+  animation-name: animN;
+  animation-duration:20s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+ 
+  border: solid 30px rgba(0, 117, 227, 0.851);
+  margin: auto;
+  position: relative;
+  top: 20px;
+
+
+}
+.carre{
+    width: 100%;
+    height: 100%;
+    border: solid 26px rgb(82, 166, 245);
+    border-left: solid 26px rgb(82, 166, 245);
+    border-top:solid 26px rgba(0, 0, 255, 0.086); 
+    border-radius: 50%;
+    position: relative;
+    left: -26px;
+    top: -26px;
+    animation-name: animX;
+    animation-duration:1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+   
+
+}
+@keyframes animX {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
+
 
 
     
