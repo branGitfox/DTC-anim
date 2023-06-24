@@ -18,7 +18,28 @@ h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: relative;
     left: 220px;
+    animation-name: clign;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 
+}
+@keyframes clign {
+    0%{
+        color: blue;
+    }
+    25%{
+        color:red;
+    }
+    50% {
+        color:rgb(0, 217, 255) ;
+    }
+    75%{
+        color: rgb(255, 72, 0);
+    }
+    100%{
+        color: rgb(4, 207, 85);
+    }
+    
 }
 
 
@@ -57,6 +78,8 @@ td {
     animation-delay: 2s;
 }
 
+
+
 @keyframes chargement {
     0% {
         width: 0%;
@@ -88,6 +111,9 @@ td {
 
     }
 
+}
+.barre:hover{
+    animation-play-state: paused;
 }
 
 .container2 {
@@ -190,6 +216,15 @@ td {
     }
 
 }
+.rond1:hover{
+    animation-play-state: paused;
+}
+.rond2:hover{
+    animation-play-state: paused;
+}
+.rond3:hover{
+    animation-play-state: paused;
+}
 
 .cercle {
     width: 35px;
@@ -234,6 +269,9 @@ td {
         border-bottom: solid 2.5px rgb(245, 14, 14);
     }
 }
+.cercle:hover{
+    animation-play-state: paused;
+}
 
 .big {
     width: 80px;
@@ -251,6 +289,7 @@ td {
 
 
 }
+
 
 .carre {
     width: 100%;
@@ -279,6 +318,9 @@ td {
         transform: rotate(360deg);
     }
 
+}
+.carre:hover{
+    animation-play-state: paused;
 }
 
 .deux {
@@ -329,6 +371,9 @@ td {
     }
 
 }
+.un:hover{
+    animation-play-state: paused;
+}
 
 @keyframes spin2 {
 
@@ -345,6 +390,9 @@ td {
         right: -210px;
     }
 
+}
+.deux:hover{
+    animation-play-state:paused;
 }
 
 .lign{
@@ -378,5 +426,9 @@ td {
         
     }
     
+}
+.lign:hover{
+
+    animation-play-state:paused;
 }
 
